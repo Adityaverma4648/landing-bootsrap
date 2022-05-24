@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    min-width:  100vw;
+}
+.btn{
+    border-radius: 5px;
+}
+.header{
+   position: relative;
+}
+#cont-illust{
+//    background-color: red;
+   position: relative;
+   height: 50vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#svg{
+    height: 80%;
+    // background-color: yellow;
+    position: absolute;
+    animation: hover-a 4s ease-in infinte ;
+}
+ 
+@keyframes hover-a{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    50%{
+        top: 75px;
+        left: 15px;
+    }
+    100%{
+        top: 10px;
+        left: 5px;
+    }
+}
+.buy-now{
+    width: 20%;
+}

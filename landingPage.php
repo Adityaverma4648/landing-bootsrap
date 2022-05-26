@@ -47,7 +47,7 @@
                    
                     <div class="btn-group">
                         <button class="btn btn-primary m-1 " data-bs-toggle="modal" data-bs-target="#myModal" id="btn-login">Login</button>
-                        <button class="btn btn-danger m-1 " data-bs-toggle="modal" data-bs-target="#regModal" id="btn-reg">Registration</button>
+                        <a href= "reg.html" class="btn btn-danger m-1 "  id="btn-reg">Registration</a>
                       </div>
 
                  </div>
@@ -93,53 +93,7 @@
     </div>
 </div>
 
-
-
-
-
-    <!-- registration modal---------------------------------------------------------------------------------------------------------------- -->
-
-    <div class="modal fade" id="regModal"  aria-hidden="true" tabindex="-1">
-        <div class="modal-dialog">
-          <div class="modal-content">
-      
-            <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">Register</h4>
-              <button type="button" class="btn-close" data-bs-dismiss="modal">
-                   <!-- close -->.
-              </button>
-            </div>
-      
-            <!-- Modal body -->
-            <div class="modal-body">
-              <h3>Please register yourself here..</h3>
-              <form action="" method="post" class="form-control">
-                  <input type="text" name="name" id="regname" class="inp text-white p-2 mt-1 bg-dark" placeholder="Enter your Name">
-                  <br>
-                  <input type="email" name="email" id="regemail" class="inp text-white p-2 mt-1 bg-dark" placeholder="Enter your E-mail">
-                  <br>
-                  <input type="number" name="age" id="regage" class="inp text-white p-2 mt-1 bg-dark" placeholder="Enter your age">
-                  <br>
-                  <input type="text" name="occupation" id="regoccupation" class="inp text-white p-2 mt-1 bg-dark" placeholder="Enter your Occupation">
-                  <br>
-                  <input type="password" name="password" id="regpassword" class="inp text-white p-2 mt-1 bg-dark" placeholder="Enter your password">
-                  <br>
-                  <input type="password" name="cpassword" id="regcpassword" class="inp text-white p-2 mt-1 bg-dark" placeholder="Confirm your password">
-            </div>
-      
-            <!-- Modal footer -->
-            <div class="modal-footer">
-              <button type="submit" class="btn btn-success" data-bs-dismiss="modal" data-bs-target="#header" >Register</button>
-            </div>
-        </form>
-        </div>
-    </div>
-</div>
-
-
-
-              </section>
+</section>
               <section id="header"  class="row container-fluid header" > 
                        <div class="col container illustration d-flex justify-content-center align-items-center" id="cont-illust">
                            

@@ -57,6 +57,7 @@ input{
        .plans{
            display: flex;
            flex-direction: column;
+           margin-top: 10px 0px;
        }
        #header{
            width: 100vw;
@@ -64,4 +65,5 @@ input{
            display: flex;
            flex-direction: column;
        }
+
 }

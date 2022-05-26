@@ -16,83 +16,7 @@
 
 </head>
 <body class="bg-dark">
-              <nav class="container-fluid navbar navbar-expand-sm bg-light">
-                  <div class="container">
-                      <a href="#" class="navbar-brand h5">LOGO</a>
-                  </div>
-                 <div class="container-fluid">
-                    <ul class="navbar-nav ">
-                        <li class="nav-item">
-                            <a href="#header" class="active nav-link text-dark h5">
-                                Home
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#about" class="nav-link text-dark h5">
-                                About
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#header" class="nav-link text-dark h5">
-                                Services
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#header" class="nav-link text-dark h5">
-                                Contact Us
-                            </a>
-                        </li>
-                    </ul>
-
-                   
-                    <div class="btn-group">
-                        <button class="btn btn-primary m-1 " data-bs-toggle="modal" data-bs-target="#myModal" id="btn-login">Login</button>
-                        <a href= "reg.html" class="btn btn-danger m-1 "  id="btn-reg">Registration</a>
-                      </div>
-
-                 </div>
-              </nav>
-<section class="modal-cont">
-                        <!-- The Modal -->
-<div class="modal fade" id="myModal">
-    <div class="modal-dialog">
-      <div class="modal-content">
-  
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h4 class="modal-title">Login</h4>
-          <button type="button" class="btn-close" data-bs-dismiss="modal">
-               <!-- close -->.
-          </button>
-        </div>
-  
-        <!-- Modal body -->
-        <div class="modal-body">
-          <h3>Please verify yourself here..</h3>
-          <form action="" method="post" class="form-control">
-              <input type="text" name="name" id="name" class="inp text-white p-2 mt-1 bg-dark" placeholder="Enter your Name">
-              <br>
-              <input type="email" name="email" id="email" class="inp text-white p-2 mt-1 bg-dark" placeholder="Enter your E-mail">
-              <br>
-              <input type="number" name="age" id="age" class="inp text-white p-2 mt-1 bg-dark" placeholder="Enter your age">
-              <br>
-              <input type="text" name="occupation" id="occupation" class="inp text-white p-2 mt-1 bg-dark" placeholder="Enter your Occupation">
-              <br>
-              <input type="password" name="password" id="password" class="inp text-white p-2 mt-1 bg-dark" placeholder="Enter your password">
-              <br>
-              <input type="password" name="cpassword" id="cpassword" class="inp text-white p-2 mt-1 bg-dark" placeholder="Confirm your password">
-        </div>
-  
-        <!-- Modal footer -->
-        <div class="modal-footer">
-          <button type="submit" class="btn btn-success" data-bs-dismiss="modal" data-bs-target="#header">Submit</button>
-          <button type="button" class="btn btn-danger" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#regModal">Register</button>
-
-        </div>
-    </form>
-    </div>
-</div>
-
+             <?php   include "navbar.php";?>
 </section>
               <section id="header"  class="row container-fluid header" > 
                        <div class="col container illustration d-flex justify-content-center align-items-center" id="cont-illust">
@@ -229,6 +153,9 @@
                                         Check Out
                                     </button>
                                 </div>
+              </section>
+              <section class="footer">
+
               </section>
 </body>
 </html>
